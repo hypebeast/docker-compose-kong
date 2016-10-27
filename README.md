@@ -4,6 +4,8 @@ This repository contains a simple docker-compose file for [Kong](https://getkong
 
 The goal is to provide a minimal Kong setup with docker-compose for local development and testing.
 
+It provisions a Kong container with a Postgres database.
+
 **Do not use it in Production!**
 
 Instead use the offical docker-compose file from [Kong Docker Compose](https://github.com/Mashape/docker-kong/tree/master/compose).
